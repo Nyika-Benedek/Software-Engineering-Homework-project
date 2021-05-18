@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" stylesheets="@kupac.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controll.EndScreen">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+
+      <Text fx:id="out" fill="GOLD" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="This is a plane text">
+         <font>
+            <Font name="SansSerif Bold" size="50.0" />
+         </font>
+      </Text>
+         <Button alignment="CENTER" mnemonicParsing="false" onAction="#QuitGame" text="Exit" BorderPane.alignment="CENTER" />
+   </children>
+</VBox>
